@@ -1,8 +1,16 @@
 <template>
   <nav>
-
-    <router-link class="mb-2 text-1xl font-bold tracking-tight text-gray-900" :to="{ name: 'EventList' }">Events</router-link> |
-    <router-link class="mb-2 text-1xl font-bold tracking-tight text-gray-900" to="/about">About</router-link>
+    <router-link
+      class="mb-2 text-1xl font-bold tracking-tight text-gray-900"
+      :to="{ name: 'EventList' }"
+      >Events</router-link
+    >
+    |
+    <router-link
+      class="mb-2 text-1xl font-bold tracking-tight text-gray-900"
+      to="/about"
+      >About</router-link
+    >
   </nav>
   <router-view />
 </template>
